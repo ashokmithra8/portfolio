@@ -7,8 +7,8 @@ const profile = {
   email: "ashokmithra20@gmail.com",
   phone: "9899336936",
   linkedin: "https://www.linkedin.com/in/ashok-mithra20-gaddam/",
-  image: "/profile-photo.jpg",
-  resume: "/resume.pdf",
+  image: `${import.meta.env.BASE_URL}profile-photo.jpg`,
+  resume: `${import.meta.env.BASE_URL}resume.pdf`,
 };
 
 const navItems = [
